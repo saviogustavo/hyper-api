@@ -1,0 +1,22 @@
+{
+    "projectId": "rrb4be",
+    "testFiles": "**/*.feature",
+    "chromeWebSecurity": false,
+    "retries": {
+    "runMode": 2,
+    "openMode": 1
+    },
+    "reporter": "junit",
+    "reporterOptions": {
+    "mochaFile": "cypress/reports/report-[hash].xml"
+    },
+    "requestTimeout":30000,
+    "defaultCommandTimeout": 30000,
+    "pageLoadTimeout": 60000,
+    "watchForFileChanges": false,
+    "videoUploadOnPasses": false,
+    "videoCompression": 1,
+    "env": {
+    
+    }
+}
